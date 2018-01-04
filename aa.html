@@ -1,0 +1,49 @@
+<head>  
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+<head>
+<form name="loginForm" action="login.aspx" method="post">
+ <button type="submit" value="Submit" id="submit">Submit</button>
+</form>
+ 
+<script>
+ var submitBtn = document.getElementById("submit");
+   var flag=true;
+var index=0;
+ submitBtn.onclick = function(event) {
+  alert("preventDefault!");
+  alert("11");
+  
+
+$.ajax({
+  url: "http://www.jb51.net/",
+  async:false,
+  success: function(data){
+    flag=false;
+  }  
+});
+while(flag){
+  index++;
+}
+alert(index);
+  return false;
+  alert("submitÍê³É£¡");
+ };
+</script>
+
+
+
+
+<form name="loginForm" action="login.aspx" method="post">
+ <button type="submit" value="Submit" id="submit">Submit</button>
+</form>
+ 
+<script>
+ var submitBtn = document.getElementById("submit");
+ 
+ submitBtn.onclick = function (event) {
+  alert("preventDefault!");
+  var event = event || window.event;
+  event.preventDefault(); // ¼æÈİ±ê×¼ä¯ÀÀÆ÷
+  window.event.returnValue = false; // ¼æÈİIE6~8
+ };
+</script>

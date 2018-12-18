@@ -1,3 +1,5 @@
 /****** Object: UserDefinedFunction [dbo].[daily_udf_datagth_rpt11_02] Script Date: 08/08/2017 13:56:10 ******/ SET ANSI_NULLS
     ON GO SET QUOTED_IDENTIFIER
    20181218 下午听了git的培训会
+
+ 收获：git checkout --file  工作目录修改后未提交，后悔修改了，就将本地库的文件更新到工作目录

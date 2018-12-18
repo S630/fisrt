@@ -3,3 +3,16 @@
    20181218 下午听了git的培训会
 
  收获：git checkout --file  工作目录修改后未提交，后悔修改了，就将本地库的文件更新到工作目录
+ 
+ 公司组织培训git的使用培训会
+时间：20181218   地点：中国人寿研发中心A座1层阶梯会议室
+收获：git checkout --file  工作目录修改后未提交，后悔修改了，就将本地库的文件更新到工作目录。 （tortoisegit 中选择 switch/checkout   打勾 overwrite working tree changes (force)）
+Git  reset   回退缓存区的数据
+Git stash  保存当前工作现场，
+Git  stash pop   回到之前保存下来的工作现场。
+Git  stash pop  name   回到指定名称的工作现场。
+使用场景：比如正在开发一个功能，进度50% 预计还有2天才能完成代码提交。这时有个紧急的BUG要修复，必须停下手头的工作去改BUG将当前的工作现场保存，切换到bug分支，修改代码提交。再返回到之前的工作现场，继续之前的开发。
+Git log  查看提交日志（当前到过去的日志）
+Git reflog  查看提交的日志（未来，当前，过去的日志）
+
+进行了一次Merge 操作
